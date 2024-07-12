@@ -8,7 +8,7 @@ const Testimonial = ({ image, alt, message, name, prof }) => {
       bg-gray-200  overflow-hidden shadow-lg p-3 rounded-md"
     >
       <img
-        className="rounded-full w-16 h-16 border-2 border-white"
+        className="rounded-full w-24 border-2 border-white"
         src={image}
         alt={alt}
       />

@@ -41,11 +41,11 @@ const Home = () => {
                   CONTACT US
                 </button>
               </NavLink>
-              <NavLink>
+              {/* <NavLink>
                 <button className="p-3 font-bold px-8 border-2 border-white bg-blue-transparent rounded-md hover:bg-blue-800 hover:border-blue-800 active:bg-blue-900 active:border-blue-900 duration-100">
                   OUR SERVICES
                 </button>
-              </NavLink>
+              </NavLink> */}
             </div>
           </div>
           <img

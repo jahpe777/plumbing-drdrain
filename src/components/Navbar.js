@@ -19,7 +19,7 @@ const Navbar = () => {
             Dr. Drain Rooter and Hydro Jett
           </span>
         </div>
-        <div className="w-1/2 p-3 flex justify-center items-center px-5">
+        {/* <div className="w-1/3 p-3 flex justify-center items-center px-5">
           <div className="flex md:space-x-20 space-x-5">
             <div className="flex space-x-3 items-center">
               <span className="border border-blue-400 p-2">
@@ -47,7 +47,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="w-1/2 p-3 flex justify-end items-center px-5">
           <div className="flex space-x-3">
             <a
