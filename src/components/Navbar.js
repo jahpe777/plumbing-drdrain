@@ -14,39 +14,41 @@ const Navbar = () => {
   return (
     <header>
       <div className="flex bg-paleBlue">
-        <div className="w-1/3 p-3 flex items-center px-5">
+        <div className="w-1/2 p-3 flex items-center px-5">
           <span className="text-white font-bold text-[13px] md:text-[18px] company">
             Dr. Drain Rooter and Hydro Jett
           </span>
         </div>
-        {/* <div className="flex md:space-x-20 space-x-5">
-          <div className="flex space-x-3 items-center">
-            <span className="border border-blue-400 p-2">
-              <EnvelopeIcon className="h-6 w-6 text-blue-400" />
-            </span>
-            <div className="flex flex-col justify-center items-baseline">
-              <p className="font-bold">Email us</p>
-              <a
-                href="mailto:kasbassnigenterprises@gmail.com"
-                className="text-sm grey"
-              >
-                @drdrainrooterandhydrojett@gmail.com
-              </a>
+        <div className="w-1/2 p-3 flex justify-center items-center px-5">
+          <div className="flex md:space-x-20 space-x-5">
+            <div className="flex space-x-3 items-center">
+              <span className="border border-blue-400 p-2">
+                <EnvelopeIcon className="h-6 w-6 text-blue-400" />
+              </span>
+              <div className="flex flex-col justify-center items-baseline">
+                <p className="text-white font-bold">Email us</p>
+                <a
+                  href="mailto:drdrainrooterandhydrojett@gmail.com@gmail.com"
+                  className="text-sm grey"
+                >
+                  @drdrainrooterandhydrojett@gmail.com
+                </a>
+              </div>
+            </div>
+            <div className="hidden md:flex space-x-3 items-center">
+              <span className="border border-blue-400 p-2">
+                <PhoneIcon className="h-6 w-6 text-blue-400" />
+              </span>
+              <div className="flex flex-col justify-center items-baseline">
+                <p className="text-white font-bold">Call Us</p>
+                <a href="tel:+6615053277" className="text-sm grey">
+                  (661) 505-3277
+                </a>
+              </div>
             </div>
           </div>
-          <div className="hidden md:flex space-x-3 items-center">
-            <span className="border border-blue-400 p-2">
-              <PhoneIcon className="h-6 w-6 text-blue-400" />
-            </span>
-            <div className="flex flex-col justify-center items-baseline">
-              <p className="font-bold">Call Us</p>
-              <a href="tel:+2348147603570" className="text-sm grey">
-                (661) 505-3277
-              </a>
-            </div>
-          </div>
-        </div> */}
-        <div className="w-2/3 p-3 flex justify-end items-center">
+        </div>
+        <div className="w-1/2 p-3 flex justify-end items-center px-5">
           <div className="flex space-x-3">
             <a
               href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
@@ -118,7 +120,7 @@ const Navbar = () => {
         </div>
       </div> */}
       <nav
-        className="flex justify-center md:justify-between md:container items-center
+        className="flex justify-center md:center md:container items-center
         px-3  md:pr-0
        text-black mx-auto text-[12px] md:text-[15px] font-bold"
       >
