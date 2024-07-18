@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {
-  WrenchScrewdriverIcon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/solid";
+// import {
+//   WrenchScrewdriverIcon,
+//   EnvelopeIcon,
+//   PhoneIcon,
+// } from "@heroicons/react/24/solid";
 import facebook from "../logo/facebook.jpg";
 import twitter from "../logo/twitter.png";
 import google from "../logo/google.jpg";

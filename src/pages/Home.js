@@ -28,19 +28,24 @@ const Home = () => {
       <Navbar />
       <div className="relative">
         <div className="relative">
-          <div className="py-24 z-50 absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center text-white text-center">
+          <div className="py-24 z-10 absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center text-white text-center">
             <h1 className="text-[44px] md:text-[64px] font-bold my-4 animate__animated animate__zoomIn">
               {`Quality Plumbing At It's Best`}
             </h1>
             <p className="text-[20px] md:text-[26px] mb-3">
-              The Best Plumbing And Maintenance Company in Burbank
+              The Best Plumbing And Maintenance Company in Burbank, CA
             </p>
             <div className="flex gap-5">
               <NavLink to="/message">
                 <button className="p-3 font-bold px-8 border border-blue-500 bg-blue-500 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 active:border-blue-800 duration-100">
-                  CONTACT US
+                  MESSAGE US
                 </button>
               </NavLink>
+              <a href="tel:+16615053277">
+                <button className="p-3 font-bold px-8 border-2 border-white bg-blue-transparent rounded-md hover:bg-blue-800 hover:border-blue-800 active:bg-blue-900 active:border-blue-900 duration-100">
+                  CALL US
+                </button>
+              </a>
               {/* <NavLink>
                 <button className="p-3 font-bold px-8 border-2 border-white bg-blue-transparent rounded-md hover:bg-blue-800 hover:border-blue-800 active:bg-blue-900 active:border-blue-900 duration-100">
                   OUR SERVICES
@@ -53,9 +58,9 @@ const Home = () => {
             src={Image && Image}
             alt="four white ceramic urinal sink"
           />
-          <div className="absolute bg-[#0f2b5b99] top-0 left-0 right-0 bottom-0" />
+          <div className="absolute bg-[#0f2b5b99] top-0 left-0 right-0 bottom-0 z-0" />
         </div>
-        <div className="absolute top-50 bottom-0 left-0 right-0 z-50">
+        <div className="absolute top-50 bottom-0 left-0 right-0 z-0">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#fff"

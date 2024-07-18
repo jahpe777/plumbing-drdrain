@@ -6,7 +6,7 @@ const About = () => {
     <>
       <Navbar />
       <div
-        className="bg-gray-100 h-full flex flex-col px-10 md:px-40 
+        className="bg-gray-100 min-h-screen flex flex-col px-10 md:px-40 
             py-40 space-y-6"
       >
         <div>
