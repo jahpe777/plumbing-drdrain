@@ -51,31 +51,19 @@ const Navbar = () => {
         <div className="w-1/2 p-3 flex justify-end items-center px-5">
           <div className="flex space-x-3">
             <a
-              href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
+              href="https://www.facebook.com/profile.php?id=100063736860822"
               target="_blank"
               rel="noreferrer"
             >
               <img className="circle" src={facebook} alt="facebook logo" />
             </a>
-            <a
-              href="https://mobile.twitter.com/GasaliAbass"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="" target="_blank" rel="noreferrer">
               <img className="circle" src={twitter} alt="twitter logo" />
             </a>
-            <a
-              href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="" target="_blank" rel="noreferrer">
               <img className="circle" src={google} alt="google logo" />
             </a>
-            <a
-              href="https://www.linkedin.com/in/abass-kasali-369911247"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="" target="_blank" rel="noreferrer">
               <img className="circle" src={linkedin} alt="linkedin logo" />
             </a>
           </div>

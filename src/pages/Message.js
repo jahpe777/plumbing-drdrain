@@ -16,9 +16,9 @@ const Message = () => {
   }
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar color="bg-gray-800" />
-      <section className="bg-white flex flex-col items-center min-h-screen justify-center space-y-6">
+      <section className="flex-grow bg-white flex flex-col items-center justify-center space-y-6">
         <h3 className="text-2xl font-bold">Feel free to ask anything</h3>
         <form
           onSubmit={handleSubmit}
@@ -62,7 +62,7 @@ const Message = () => {
         </form>
       </section>
       <Footer />
-    </>
+    </div>
   );
 };
 

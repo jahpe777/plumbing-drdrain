@@ -3,12 +3,9 @@ import Footer from "../components/Footer";
 
 const About = () => {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <div
-        className="bg-gray-100 min-h-screen flex flex-col px-10 md:px-40 
-            py-40 space-y-6"
-      >
+      <div className="flex-grow bg-gray-100 px-10 md:px-40 py-20 flex flex-col justify-center items-center space-y-6">
         <div>
           <h1 className="font-bold text-[28px] text-center">Our Mission</h1>
           <p className="text-[20px] text-center">
@@ -33,7 +30,7 @@ const About = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
