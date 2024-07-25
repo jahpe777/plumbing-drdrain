@@ -76,7 +76,7 @@ const Home = () => {
           Plumbing Repair Service
         </h2>
         <p
-          className="text-gray-500 max-w-lg mx-auto text-center py-2"
+          className="text-gray-500 max-w-lg mx-auto text-center py-2 px-3"
           style={{ fontSize: "16px" }}
         >
           {`If you need any help with your plumbing, give us a call at ${customer[0].name}. We offer a variety of high quality plumbing

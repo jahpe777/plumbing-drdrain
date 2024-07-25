@@ -20,7 +20,7 @@ const Projects = () => {
         RECENT WORKS
       </h2>
       <p
-        className="text-gray-500 max-w-lg mx-auto text-center py-1"
+        className="text-gray-500 max-w-lg mx-auto text-center py-1 px-3"
         style={{ fontSize: "16px" }}
       >
         Action speaker louder than word, check our successful completed projects
