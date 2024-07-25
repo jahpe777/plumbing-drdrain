@@ -12,22 +12,23 @@ import Projects from "./pages/Projects";
 // import { AiOutlineMessage } from "react-icons/ai";
 import Redirect from "./components/Redirect";
 import { Helmet } from "react-helmet";
+import customer from "./functions/customer";
 
 function App() {
   const [open, setOpen] = useState(false);
   return (
     <>
       <Helmet>
-        <title>Dr. Drain Rooter and Hydro Jett</title>
+        <title>{customer[0].name}</title>
         <meta
           name="description"
-          content="Dr. Drain Rooter and Hydro Jett offers expert plumbing services in Burbank, CA. Contact us today for a free quote!"
+          content={`${customer[0].name} offers expert plumbing services in Burbank, CA. Contact us today for a free quote!`}
         />
         <meta
           name="keywords"
-          content="plumbing services, Burbank, California, Dr. Drain Rooter and Hydro Jett |have knowledgeable and experienced technicians, offer competitive pricing, and use high-quality materials. |Experience the Best Plumbing Services in Burbank with Dr. Drain Rooter and Hydro Jett!"
+          content={`plumbing services, Burbank, California, ${customer[0].name} |have knowledgeable and experienced technicians, offer competitive pricing, and use high-quality materials. |Experience the Best Plumbing Services in Burbank with ${customer[0].name}!`}
         />
-        <meta name="author" content="Dr. Drain Rooter and Hydro Jett" />
+        <meta name="author" content={`${customer[0].name}`} />
       </Helmet>
       <div className="box-sizing:border-box bg-gray-100">
         <Routes>

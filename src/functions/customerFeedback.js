@@ -1,20 +1,20 @@
 import img1 from "../logo/customer1.jpg";
 import img2 from "../logo/customer2.jpg";
 import img3 from "../logo/customer3.jpg";
+import customer from "../functions/customer";
 
 export const feedback = [
   {
     image: img1,
     alt: "customer one",
-    message:
-      'Dr. Drain was fantastic!!..polite, efficient, neat and extremely profession plus he’s a nice guy to boot!. He did an excellent job for us and we are very happy with our new drain system!"',
+    message: `${customer[0].name} was fantastic!!..polite, efficient, neat and extremely profession plus he’s a nice guy to boot!. He did an excellent job for us and we are very happy with our new drain system!`,
     name: "Jason Bloomberg",
     prof: "Chief Accountant",
   },
   {
     image: img2,
     alt: "customer two",
-    message: `Dr. Drain is the best plumbing company I’ve ever worked with.
+    message: `${customer[0].name}  is the best plumbing company I’ve ever worked with.
         Their technicians are knowledgeable, professional, and reliable. We were extremely pleased with the results
         and would highly recommend them to anyone in need of plumbing services.`,
     name: "Sarah Fargo",

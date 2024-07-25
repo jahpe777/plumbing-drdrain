@@ -11,32 +11,31 @@ import {
 // import twitter from "../logo/twitter.png";
 // import google from "../logo/google.jpg";
 // import linkedin from "../logo/linkedin.png";
+import customer from "../functions/customer";
 
 const Footer = () => {
   return (
     <section className="bg-deepBlue flex flex-col pb-3 md:pb-0">
       <div className="flex flex-col md:flex-row justify-around items-center py-4">
         <div className="flex flex-col md:flex-row items-center space-y-1 md:space-y-0 md:space-x-4 text-white font-bold">
-          <h2 className="font-bold text-white">
-            Dr. Drain Rooter and Hydro Jett
-          </h2>
+          <h2 className="font-bold text-white">{customer[0].name}</h2>
           <address className="flex flex-col md:flex-row md:space-x-4 items-center grey">
-            <span className="text-sm flex items-center">
+            {/* <span className="text-sm flex items-center">
               <MapIcon className="text-blue-500 h-4 w-4 mx-1" />
               Burbank, CA
-            </span>
+            </span> */}
             <span className="text-sm flex items-center">
               <MapPinIcon className="text-blue-500 h-4 w-4 mx-1" />
-              212 W Linden Ave unit D, Burbank, CA 91502
+              {customer[0].address}
             </span>
             <span className="text-sm flex items-center">
               <PhoneIcon className="text-blue-500 h-4 w-4 mx-1" />
-              (661) 505-3277
+              {customer[0].phone}
             </span>
             <span className="text-sm flex items-center">
               <EnvelopeIcon className="text-blue-500 h-4 w-4 mx-1" />
               <a href="mailto:drdrainrooterandhydrojett@gmail.com">
-                @drdrainrooterandhydrojett@gmail.com
+                {customer[0].email}
               </a>
             </span>
           </address>

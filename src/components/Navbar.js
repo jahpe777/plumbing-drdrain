@@ -9,6 +9,7 @@ import facebook from "../logo/facebook.jpg";
 import twitter from "../logo/twitter.png";
 import google from "../logo/google.jpg";
 import linkedin from "../logo/linkedin.png";
+import customer from "../functions/customer";
 
 const Navbar = () => {
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
       <div className="flex bg-paleBlue">
         <div className="w-1/2 p-3 flex items-center px-5">
           <span className="text-white font-bold text-[13px] md:text-[18px] company">
-            Dr. Drain Rooter and Hydro Jett
+            {customer[0].name}
           </span>
         </div>
         {/* <div className="w-1/3 p-3 flex justify-center items-center px-5">
