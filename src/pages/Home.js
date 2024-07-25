@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 import customer from "../functions/customer";
 
 const Home = () => {
-  const [Image, setImage] = useState("");
+  const [Image, setImage] = useState(image[0]);
 
   const changer = () => {
     const bg = image[Math.floor(Math.random() * image.length)];
