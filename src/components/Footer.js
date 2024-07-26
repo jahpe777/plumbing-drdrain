@@ -34,9 +34,7 @@ const Footer = () => {
             </span>
             <span className="text-sm flex items-center">
               <EnvelopeIcon className="text-blue-500 h-4 w-4 mx-1" />
-              <a href="mailto:drdrainrooterandhydrojett@gmail.com">
-                {customer[0].email}
-              </a>
+              <a href={`mailto:${customer[0].email}`}>{customer[0].email}</a>
             </span>
           </address>
         </div>
